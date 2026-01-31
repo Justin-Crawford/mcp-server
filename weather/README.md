@@ -62,25 +62,6 @@ This pulls in the MCP Python SDK and `httpx` for making requests to the NWS API.
 
 ---
 
-## Project Structure
-
-A minimal structure looks like:
-
-```text
-.
-├── weather.py      # MCP server implementation
-├── README.md
-└── uv.lock / pyproject.toml (created by uv)
-```
-
-- `weather.py` contains:
-  - Server initialization with `FastMCP("weather")`
-  - Helper functions for calling the NWS API
-  - `get_alerts` and `get_forecast` tools
-  - A `main()` function that runs the MCP server over STDIO
-
----
-
 ## Usage
 
 ### Running the MCP server
