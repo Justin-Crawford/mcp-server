@@ -1,6 +1,5 @@
 def main():
-    print("Hello from weather!")
-
+  print("Main")
 
 if __name__ == "__main__":
-    main()
+  main()
